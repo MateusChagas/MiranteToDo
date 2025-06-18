@@ -1,0 +1,6 @@
+@Mirante_HostAddress = http://localhost:5036
+
+GET {{Mirante_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
