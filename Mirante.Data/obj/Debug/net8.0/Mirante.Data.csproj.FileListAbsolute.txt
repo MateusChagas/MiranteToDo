@@ -1,0 +1,16 @@
+D:\Desenvolvimento\Mirante\Mirante.Data\bin\Debug\net8.0\Mirante.Data.deps.json
+D:\Desenvolvimento\Mirante\Mirante.Data\bin\Debug\net8.0\Mirante.Data.dll
+D:\Desenvolvimento\Mirante\Mirante.Data\bin\Debug\net8.0\Mirante.Data.pdb
+D:\Desenvolvimento\Mirante\Mirante.Data\bin\Debug\net8.0\Mirante.Domain.dll
+D:\Desenvolvimento\Mirante\Mirante.Data\bin\Debug\net8.0\Mirante.Domain.pdb
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.AssemblyInfo.cs
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.sourcelink.json
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante..1DBF673E.Up2Date
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.dll
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\refint\Mirante.Data.dll
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\Mirante.Data.pdb
+D:\Desenvolvimento\Mirante\Mirante.Data\obj\Debug\net8.0\ref\Mirante.Data.dll

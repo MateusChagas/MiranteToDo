@@ -25,15 +25,16 @@ namespace Mirante.Application.Services
             return task.Entity;
         }
 
-        public async Task<bool> DeleteAsync(int id)
+        public void DeleteAsync(int? id)
         {
-            var todo = await _toDoContext.Tasks.FindAsync(id);
+            var todo = _toDoContext.Tasks.Find(id);
             if (todo == null)
             {
-                return false;
+                throw new KeyNotFoundException($"ToDo with ID {id} not found.");
             }
             _toDoContext.Tasks.Remove(todo);
-            return await _toDoContext.SaveChangesAsync() > 0;
+            _toDoContext.SaveChanges();
+            
         }
 
         public async Task<IEnumerable<ToDo>> GetAllAsync()
@@ -77,5 +78,6 @@ namespace Mirante.Application.Services
             return Task.FromResult(existingTodo.Result);
         }
 
+      
     }
 }

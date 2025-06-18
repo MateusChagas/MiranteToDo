@@ -14,7 +14,7 @@ namespace Mirante.Application.Repository
         Task<IEnumerable<ToDo>> GetByStatusAsync(Tasks status);
         Task<ToDo> AddAsync(ToDo todo);
         Task<ToDo> UpdateAsync(ToDo todo);
-        Task<bool> DeleteAsync(int id);        
+         void DeleteAsync(int? id);        
 
     }
 }
