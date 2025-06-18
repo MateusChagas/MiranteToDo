@@ -8,7 +8,7 @@ namespace Mirante.Data
         public ToDoContext(DbContextOptions<ToDoContext> options) : base(options)
         {
         }
-        public DbSet<ToDo> Tasks { get; set; }
+        public DbSet<ToDo> Tasks => Set<ToDo>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

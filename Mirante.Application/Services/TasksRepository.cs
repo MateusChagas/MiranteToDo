@@ -5,11 +5,11 @@ using Mirante.Model;
 
 namespace Mirante.Application.Services
 {
-    public class TasksService: ITasksRepository
+    public class TasksRepository: ITasksRepository
     {
         private readonly ToDoContext _context;
 
-        public TasksService(ToDoContext context)
+        public TasksRepository(ToDoContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }

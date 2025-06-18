@@ -1,24 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mirante.Application.Repository;
 using Mirante.Application.UnitOfWork;
 using Mirante.Model;
 
 namespace Mirante.Controllers
 {
-    public class ToDoController : Controller
-    {
+   
         [ApiController]
         [Route("api/[controller]")]
         public class ToDoTaskController : ControllerBase
         {
             private readonly IUnitOfWork _uow;
-            public ToDoTaskController(IUnitOfWork uow)
+            private readonly ITasksRepository _tasksRepository;
+            public ToDoTaskController(IUnitOfWork uow,ITasksRepository tasksRepository)
             {
                 _uow = uow;
+                _tasksRepository = tasksRepository;
             }
             [HttpGet]
             public async Task<IActionResult> GetAll([FromQuery] Tasks? status, [FromQuery] DateTime? dueDate)
             {
-                var tasks = await _uow.TasksRepository.GetByDueDateAsync(status, dueDate);
+                var tasks = await _tasksRepository.GetByDueDateAsync(status, dueDate);
                 if (tasks == null || !tasks.Any())
                 {
                     return NotFound("No tasks found.");
@@ -67,8 +69,9 @@ namespace Mirante.Controllers
                 await _uow.CommitAsync();
                 return NoContent();
             }
-           
-            public async Task<IActionResult> Delete(int id)
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
             {
                 var existingTask =  _uow.ToDoRepository.GetByIdAsync(id).Result;
                 id = existingTask.Id;
@@ -80,9 +83,10 @@ namespace Mirante.Controllers
                 await _uow.CommitAsync();
                 return NoContent();
             }
+
         }
 
         
     }
-}
+
 

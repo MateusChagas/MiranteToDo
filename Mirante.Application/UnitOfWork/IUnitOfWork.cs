@@ -9,8 +9,7 @@ namespace Mirante.Application.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
-        IToDoRepository ToDoRepository { get; }
-        ITasksRepository TasksRepository { get; }
+        IToDoRepository ToDoRepository { get; }        
         Task<int> CommitAsync();
     }
     

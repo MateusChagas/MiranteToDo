@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Mirante.Application.Services
 {
-    public class TodoService: IToDoRepository
+    public class TodoRepository: IToDoRepository
     {
         private readonly ToDoContext _toDoContext;
-        public TodoService(ToDoContext toDoContext)
+        public TodoRepository(ToDoContext toDoContext)
         {
             _toDoContext = toDoContext ?? throw new ArgumentNullException(nameof(toDoContext));
         }
