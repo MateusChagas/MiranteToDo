@@ -10,3 +10,6 @@ D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\Mirante.Domain.dll
 D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\refint\Mirante.Domain.dll
 D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\Mirante.Domain.pdb
 D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\ref\Mirante.Domain.dll
+D:\Desenvolvimento\Mirante\Mirante.Domain\bin\Debug\net8.0\Mirante.Domain.runtimeconfig.json
+D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\Mirante.Domain.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Mirante\Mirante.Domain\obj\Debug\net8.0\Mirante.Domain.genruntimeconfig.cache

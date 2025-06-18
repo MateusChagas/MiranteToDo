@@ -16,3 +16,5 @@ D:\Desenvolvimento\Mirante\Mirante.Application\obj\Debug\net8.0\Mirante.Applicat
 D:\Desenvolvimento\Mirante\Mirante.Application\obj\Debug\net8.0\refint\Mirante.Application.dll
 D:\Desenvolvimento\Mirante\Mirante.Application\obj\Debug\net8.0\Mirante.Application.pdb
 D:\Desenvolvimento\Mirante\Mirante.Application\obj\Debug\net8.0\ref\Mirante.Application.dll
+D:\Desenvolvimento\Mirante\Mirante.Application\bin\Debug\net8.0\Mirante.Application.runtimeconfig.json
+D:\Desenvolvimento\Mirante\Mirante.Application\obj\Debug\net8.0\Mirante.Application.genruntimeconfig.cache
