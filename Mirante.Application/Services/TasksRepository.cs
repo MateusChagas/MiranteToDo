@@ -5,7 +5,7 @@ using Mirante.Model;
 
 namespace Mirante.Application.Services
 {
-    public class TasksRepository: ITasksRepository
+    public class TasksRepository : ITasksRepository
     {
         private readonly ToDoContext _context;
 
@@ -17,15 +17,16 @@ namespace Mirante.Application.Services
         public async Task<IEnumerable<Tasks>> GetByDueDateAsync(Tasks? taskStatus, DateTime? dueDate)
         {
             var query = _context.Tasks.AsQueryable();
+
             if (taskStatus.HasValue)
-            {
                 query = query.Where(t => t.Status == taskStatus);
 
-                if(dueDate.HasValue)
-                    query = query.Where(t => t.DueDate.Date == dueDate.Value.Date);
+            if (dueDate.HasValue)
+                query = query.Where(t => t.DueDate.Date == dueDate.Value.Date);
 
-            }
             return (IEnumerable<Tasks>)await query.ToListAsync();
+
+
         }
     }
 }
