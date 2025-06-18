@@ -34,3 +34,4 @@ D:\Desenvolvimento\Mirante\Mirante\obj\Debug\net8.0\refint\Mirante.dll
 D:\Desenvolvimento\Mirante\Mirante\obj\Debug\net8.0\Mirante.pdb
 D:\Desenvolvimento\Mirante\Mirante\obj\Debug\net8.0\Mirante.genruntimeconfig.cache
 D:\Desenvolvimento\Mirante\Mirante\obj\Debug\net8.0\ref\Mirante.dll
+D:\Desenvolvimento\Mirante\Mirante\obj\Debug\net8.0\Mirante.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mirante")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7c1c3fb2b5dd7cf6b7e973036e8e17c471ec738")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mirante")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mirante")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
