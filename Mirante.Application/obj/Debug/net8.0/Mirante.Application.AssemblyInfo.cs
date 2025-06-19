@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mirante.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d86de91bc2a6e2c15633c66474b159c6180195c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c88ed0195ee1a77fd79f6f191398baff86084f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mirante.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mirante.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
